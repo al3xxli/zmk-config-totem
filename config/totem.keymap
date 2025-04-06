@@ -44,6 +44,16 @@
             key-positions = <2 3>;
             slow-release;
         };
+
+        Space {
+            bindings = <&kp SPACE>;
+            key-positions = <25 24>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <14 13>;
+        };
     };
 
     keymap {
