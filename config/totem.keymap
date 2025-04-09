@@ -41,7 +41,7 @@
 
         Layer2 {
             bindings = <&mo 1>;
-            key-positions = <2 3>;
+            key-positions = <2 3 1>;
             slow-release;
         };
 
@@ -53,6 +53,16 @@
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <14 13>;
+        };
+
+        Slash {
+            bindings = <&kp KP_SLASH>;
+            key-positions = <20 30>;
+        };
+
+        QuestionMark {
+            bindings = <&kp QUESTION>;
+            key-positions = <20 29>;
         };
     };
 
