@@ -74,6 +74,16 @@
             bindings = <&kp EXCL>;
             key-positions = <20 27>;
         };
+
+        LBracket {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <20 16>;
+        };
+
+        RBracket {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 17>;
+        };
     };
 
     keymap {
