@@ -41,7 +41,7 @@
 
         Layer2 {
             bindings = <&mo 1>;
-            key-positions = <2 3 1>;
+            key-positions = <2 1>;
             slow-release;
         };
 
@@ -63,6 +63,16 @@
         QuestionMark {
             bindings = <&kp QUESTION>;
             key-positions = <20 29>;
+        };
+
+        SemiColons {
+            bindings = <&kp SEMI>;
+            key-positions = <20 18>;
+        };
+
+        Exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <20 27>;
         };
     };
 
