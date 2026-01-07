@@ -80,11 +80,6 @@
             key-positions = <20 16>;
         };
 
-        RBracket {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 17>;
-        };
-
         caps {
             bindings = <&kp CAPS>;
             key-positions = <21 33>;
@@ -93,6 +88,11 @@
         Layer2Arrow {
             bindings = <&mo 1>;
             key-positions = <17 18>;
+        };
+
+        RBracket {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 17>;
         };
     };
 
