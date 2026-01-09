@@ -82,7 +82,7 @@
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <21 33>;
+            key-positions = <20 32>;
         };
 
         Layer2Arrow {
