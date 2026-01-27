@@ -94,6 +94,11 @@
             bindings = <&kp RPAR>;
             key-positions = <20 17>;
         };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <33 0>;
+        };
     };
 
     keymap {
